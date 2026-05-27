@@ -1,14 +1,14 @@
 import Link from "next/link";
 
-export function Logo({ color = "#C59D35" }: { color?: string }) {
-  // ED MARTIN "E" mark — stylized ladder/E from the brand
+export function Logo() {
   return (
-    <svg className="logo-svg" viewBox="0 0 40 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <rect x="8" y="2" width="24" height="3" fill={color} />
-      <rect x="8" y="2" width="3" height="44" fill={color} />
-      <rect x="8" y="22" width="20" height="3" fill="#FFFFFF" />
-      <rect x="8" y="43" width="24" height="3" fill="#FFFFFF" />
-      <rect x="29" y="22" width="3" height="24" fill="#FFFFFF" />
+    <svg className="logo-svg" viewBox="0 0 28 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="0.5" y="0.5" width="20" height="2.5" stroke="#C59D35" strokeWidth="1" />
+      <rect x="0.5" y="7" width="20" height="2" stroke="#BAB9B4" strokeWidth="0.8" />
+      <rect x="0.5" y="13" width="20" height="2" stroke="#BAB9B4" strokeWidth="0.8" />
+      <rect x="0.5" y="19" width="20" height="2" stroke="#BAB9B4" strokeWidth="0.8" />
+      <rect x="0.5" y="25" width="20" height="2.5" stroke="#C59D35" strokeWidth="1" />
+      <line x1="0.5" y1="0.5" x2="0.5" y2="27.5" stroke="#C59D35" strokeWidth="1" />
     </svg>
   );
 }
@@ -25,7 +25,7 @@ export default function Nav() {
         <li><Link href="/#empresas">Empresas</Link></li>
         <li><Link href="/blog">Blog</Link></li>
         <li><Link href="/#sobre-ed">Sobre Ed</Link></li>
-        <li><Link href="/#contacto">Contacto</Link></li>
+        <li><Link href="/#contacto" className="nav-cta">Contacto</Link></li>
       </ul>
     </nav>
   );
