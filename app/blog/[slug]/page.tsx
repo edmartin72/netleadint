@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
+import Newsletter from "../../components/Newsletter";
 import { getPost, getPostSlugs, formatDate } from "@/lib/posts";
 
 const SITE_URL = "https://netleading.net";
+const SKOOL = "https://www.skool.com/netlideres-9986/about";
 
 export async function generateStaticParams() {
   return getPostSlugs().map((slug) => ({ slug }));
@@ -107,6 +109,8 @@ export default async function Article({
 
       <article className="article-body" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
 
+      <Newsletter />
+
       <section className="article-end-cta">
         <h2>El networking se aprende, y se puede sistematizar</h2>
         <p>
@@ -120,6 +124,14 @@ export default async function Article({
             href="https://wa.me/525583465542?text=Hola%20Ed%2C%20le%C3%AD%20tu%20art%C3%ADculo%20y%20quiero%20saber%20m%C3%A1s%20sobre%20NetLeading"
           >
             Escríbeme por WhatsApp
+          </a>
+          <a
+            className="btn btn-outline-light"
+            href={SKOOL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Conocer la comunidad
           </a>
         </div>
       </section>
