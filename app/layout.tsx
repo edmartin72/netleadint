@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 import "./globals.css";
 
 const SITE_URL = "https://netleading.net";
@@ -73,7 +74,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <GoogleAnalytics />
+        {children}
+      </body>
     </html>
   );
 }
