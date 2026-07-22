@@ -90,7 +90,7 @@ Cada uno de los tres componentes hace algo muy concreto:
 
 Una vez que la tengas construida, tres notas prácticas sobre cómo aplicarla:
 
-**Es la respuesta a "¿a qué te dedicas?", no un pitch de ventas.** No estás vendiendo cuando la dices — estás abriendo la puerta a que la otra persona pregunte más. Si dice "cuéntame más", cumplió su función. Ahí es donde entra tu [elevator pitch](/), que es la herramienta que responde a esa siguiente pregunta con más profundidad. Una abre la puerta, el otro la atraviesa.
+**Es la respuesta a "¿a qué te dedicas?", no un pitch de ventas.** No estás vendiendo cuando la dices — estás abriendo la puerta a que la otra persona pregunte más. Si dice "cuéntame más", cumplió su función. Ahí es donde entra tu [elevator pitch](/blog/elevator-pitch-que-es-estructura-ejemplos), que es la herramienta que responde a esa siguiente pregunta con más profundidad. Una abre la puerta, el otro la atraviesa.
 
 **Dila en menos de 15 segundos.** Si tarda más, ya perdiste. La propuesta de valor tiene que ser corta, contundente, memorable. Ensáyala hasta que salga natural.
 
