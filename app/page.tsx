@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Newsletter from "./components/Newsletter";
 
 const WA = "https://wa.me/525583465542";
 
@@ -195,6 +196,9 @@ export default function Home() {
           <iframe src="https://player.vimeo.com/video/1177518436" allowFullScreen title="La historia de NetLeading"></iframe>
         </div>
       </section>
+
+      {/* NEWSLETTER */}
+      <Newsletter />
 
       {/* CTA FINAL */}
       <section className="cta-final" id="contacto">
