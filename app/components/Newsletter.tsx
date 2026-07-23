@@ -47,7 +47,7 @@ export default function Newsletter() {
           marginWidth={0}
           src="https://12gju.mjt.lu/wgt/12gju/07p5/form?c=594f91d7"
           width="100%"
-          style={{ height: 0 }}
+          style={{ height: 500, maxWidth: 560, margin: "0 auto", display: "block" }}
           title="Suscripción al newsletter NetLeading"
         />
         <Script
